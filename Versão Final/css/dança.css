@@ -1,0 +1,28 @@
+video{
+  max-width: 100%;
+  border-color: black;
+  align-self: center;
+}
+.videos{
+  text-align: center;
+  font-weight: bolder;
+}
+img{
+  width: 280px;
+  height: 350px;
+}
+
+
+/*TIJOLOS*/
+  .flex-container {
+		display: flex;
+		align-items: stretch;
+    justify-content: space-around;
+	}
+
+	@media (max-width: 500px) {
+		.flex-container {
+			flex-direction: column;
+		}
+	}
+  

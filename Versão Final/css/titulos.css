@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  /*CORPO*/
+    html {
+      scroll-behavior: smooth;
+    }
+    #folha{
+      background-color: #F3F3FB;
+      padding-left: 2%;
+      padding-right: 2%;
+      position: relative;
+      float: initial;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #54CBB8;
+      font-size: 130%;
+    }
+  
+  /*TÍTULOS*/
+    h1{
+      color: rgb(255, 83, 175);
+      text-align: center;
+      padding-top: 15px;
+  
+    }
+    h2{
+      color: rgb(2, 194, 201);
+      text-align: center;
+    }
+    h3{
+      color: rgb(47, 187, 47);
+      /*text-align: center;*/
+     
+    }
+
+    
+
+
+
+  
+  /*.subtitulos{
+    color: #CBE892;
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(2, 184, 2);
+    text-shadow: 1px 1px 2px #000000;
+  }*/

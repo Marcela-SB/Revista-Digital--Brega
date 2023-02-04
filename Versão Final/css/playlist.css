@@ -1,0 +1,70 @@
+.linksmusicas{
+  text-decoration: none;
+  color: black;
+}
+.linksmusicas:hover { 
+  text-decoration: underline; 
+}
+
+p {
+  text-align: justify;
+}
+
+/*FOTOS E BIOGRAFIA*/
+  .cantores {
+		display: flex;
+		align-items: stretch;
+    justify-content: space-around;
+    align-self: center;
+	}
+
+	@media (max-width: 500px) {
+		.cantores{
+			flex-direction: column;
+		}
+	}
+  
+
+/*BIOGRAFIA*/
+.bio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*FOTOS*/
+  .fotos{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 20px;
+    padding-left: 20px; 
+  }
+  #amado{
+    max-width: 100%;
+    height: 100%;
+    width: 2100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+  }
+  #rossi{
+    max-width: 100%;
+    height: 80%;
+    width: 2700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  } 
+  #zezo{
+    max-width: 100%;
+    height: 80%;
+    width: 4900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+ //
+ //

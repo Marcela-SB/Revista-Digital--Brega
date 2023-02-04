@@ -1,0 +1,86 @@
+  p{
+    text-align: justify;
+  }
+  .tit-entr{
+    display: inline;
+    position: relative;
+  }
+  #tit-esq{
+    float: left;
+    display: block;
+    justify-content: space-between;
+  }
+  #tit-dir{
+    float: right;
+    display: block;
+    justify-content: space-between;
+  }
+
+
+/*BANDEIRAS*/
+  #brasil{
+    width: 13%;
+    height: 13%;
+    position: relative;
+    transform: rotate(15deg);
+  }
+  #argentina{
+    width: 14%;
+    height: 14%;
+    float: right;
+    position: static;
+    transform: rotate(-18deg);
+  }
+
+
+/*BALÕES*/
+  .entrev {
+		display: flow-root;
+		align-items: baseline;
+		justify-content: space-around;
+    font-size: 70%;
+	}
+
+	@media (max-width: 500px) {
+		.entrev {
+			flex-direction: column;
+		}
+	}
+  .ent{
+    margin: 10px;
+    font-weight: bold;
+  }
+  .ent1{
+    background-color: rgb(255, 177, 108);
+    max-width: 55%;
+    width: 100%;
+    align-items: flex-start;
+    border-style: solid;
+    border-color: rgb(255, 177, 108);
+    border-radius: 0px 20px 20px 20px;
+    border-width: 2px;
+  }
+  .ent2{
+    background-color: rgb(254, 203, 158);
+    max-width: 55%;
+    float: right;
+    align-items: flex-end;
+    border-style: solid;
+    border-color: rgb(254, 203, 158)   ;
+    border-radius: 20px 0px 20px 20px;
+    border-width: 2px;
+  }
+  
+  
+.entcorte{
+    background-color: rgb(254, 203, 158);
+    max-width: 55%;
+    float: right;
+    align-items: flex-end;
+    border-style: solid;
+    border-color: rgb(254, 203, 158)   ;
+    border-radius: 20px 20px 20px 20px;
+    border-width: 2px;
+    margin-top: 5px;
+  }
+  
