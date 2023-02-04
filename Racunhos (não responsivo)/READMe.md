@@ -1,2 +1,2 @@
 # Versão Inicial
-Protótipo de <i>landing page</i> não responsivo do trabalho
+Protótipo como <i>landing page</i> não responsiva do trabalho
